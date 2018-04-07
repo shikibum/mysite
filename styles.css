@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* common */
+body {
+  font-size: 14px;
+  font-family: Verdana, sans-serof;
+  color: #333;
+}
+
+a {
+  text_decoration: none;
+}
+
+p {
+  line-height: 2;
+}
