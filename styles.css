@@ -2,6 +2,7 @@
 
 /* common */
 body {
+  margin: 0;
   font-size: 14px;
   font-family: Verdana, sans-serof;
   color: #333;
