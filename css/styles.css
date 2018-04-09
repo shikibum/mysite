@@ -37,6 +37,19 @@ img.shadow {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
 }
 
+section {
+  padding: 90px 0;
+}
+
+section:nth-child(odd) {
+  background: #f8f8f8;
+}
+
+section .container {
+  width: 820px
+  margin: 0 auto;
+}
+
 header {
   background-image: url("../img/bg.png");
   background-size: cover;
