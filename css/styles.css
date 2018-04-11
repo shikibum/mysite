@@ -134,3 +134,15 @@ header img {
 .voices h2:after{
   content: '- User Voices -';
 }
+
+.user img {
+  border-radius: 50%;
+  border: 10px solid #fff;
+}
+
+.user {
+  background: #fff;
+}
+.user h3 {
+  text-align: center;
+}
