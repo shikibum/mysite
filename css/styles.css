@@ -138,13 +138,19 @@ header img {
 .user img {
   border-radius: 50%;
   border: 10px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -60px;
 }
 
 .user {
   background: #fff;
   width: 250px;
   box-sizing: border-box;
-  padding: 0 40px 26px;
+  padding: 65px; 40px 26px;
+  position: relative;
 }
 
 .user h3 {
@@ -154,4 +160,8 @@ header img {
 .voices > .container {
   display: flex;
   justify-content: space-between;
+}
+
+.voices h2 {
+  margin-bottom: 150px;
 }
