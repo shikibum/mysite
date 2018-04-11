@@ -32,7 +32,7 @@ p {
 }
 
 img.shadow {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 section {
@@ -44,7 +44,7 @@ section:nth-child(odd) {
 }
 
 section .container {
-  width: 820px
+  width: 820px;
   margin: 0 auto;
 }
 
@@ -101,6 +101,33 @@ header img {
 /* features */
 .features h2:after{
   content: '- Features -';
+}
+
+.desc {
+  width: 360px;
+}
+
+.pull-right {
+  float: right;
+  padding-left: 40px;
+}
+
+.pull-left {
+  float: left;
+  padding-right: 40px;
+}
+
+.row {
+  overflow: hidden;
+  margin-bottom: 90px;
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.features h3 {
+  font-size: 23px;
 }
 
 /* voices  */
