@@ -60,13 +60,13 @@ section:not(.call-to-action) h2:after {
   display: block;
   font-size: 18px;
   color: #aaa;
-  padding-top; 10px;
+  padding-top: 10px;
 }
 
 
 /* header */
 header {
-  background-image: url("../img/bg.png");
+  background-image: url('../img/bg.png');
   background-size: cover;
 }
 
@@ -99,11 +99,11 @@ header img {
 }
 
 /* features */
-.features h2:after{
+.features h2:after {
   content: '- Features -';
 }
 
-.desc {
+.features .desc {
   width: 360px;
 }
 
@@ -127,11 +127,11 @@ header img {
 }
 
 .features h3 {
-  font-size: 23px;
+  font-size: 24px;
 }
 
 /* voices  */
-.voices h2:after{
+.voices h2:after {
   content: '- User Voices -';
 }
 
@@ -142,7 +142,16 @@ header img {
 
 .user {
   background: #fff;
+  width: 250px;
+  box-sizing: border-box;
+  padding: 0 40px 26px;
 }
+
 .user h3 {
   text-align: center;
+}
+
+.voices > .container {
+  display: flex;
+  justify-content: space-between;
 }
